@@ -1,5 +1,7 @@
 # Desafio Linx
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/18d786d1-499c-4d2b-b0aa-50199aa23374/deploy-status)](https://app.netlify.com/sites/linx/deploys)
+
 Foram propostas 3 atividades que estão descritas mais detalhadamente no arquivo anexo [Instruções](https://github.com/matheusroversi/linx/blob/master/Instruc%CC%A7o%CC%83es.pdf)
 
 - [ ] Encontre os erros
@@ -54,7 +56,7 @@ Executar o index.html
 Esta versão mobile foi testada diretamenta no smartphone e apresentou renderização com sucesso. Para qualquer projeto a simulação mobile diretamente no navegador desktop pode apresentar problemas de renderização, caso isso ocorra desative a ative novamente.
 
 ```sh
- `Ctrl + Shift + M`
+ Ctrl + Shift + M
 ```
 
 ![Screenshoot Versão Desktop](images/screenshot_mobile.png)
@@ -63,11 +65,11 @@ Esta versão mobile foi testada diretamenta no smartphone e apresentou renderiza
 
 ## Sobre a realização do teste
 
-> Teste 1: Estava muito bem claro os erros.
+Teste 1: Não tive problemas pois estava muito bem claro os erros.
 
-> Teste 2: Baseei nas informações propostas no wareframe apresentado respeitando a identidade visual da empresa, cores, espaçamento dos elementos. Sobre a fonte, o site da empresa possui algumas divergencias sobre  "padronização", algumas paginas possui uma fonte diferente de outras, considerei a que mais me agradou visualmente entre 'Roboto' e a 'Roboto Condensed'.
+Teste 2: Baseei nas informações propostas no wareframe apresentado respeitando a identidade visual da empresa, cores, espaçamento dos elementos. Sobre a fonte, o site da empresa possui algumas divergencias sobre  "padronização", algumas paginas possui uma fonte diferente de outras, considerei a que mais me agradou visualmente entre 'Roboto' e a 'Roboto Condensed'.
 
-> Teste 3: Utilizei HTML, CSS e SASS que facilitou a organização das folhas de estilo.
+Teste 3: Utilizei HTML, CSS e SASS que facilitou a organização das folhas de estilo.
 
 
 
