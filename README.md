@@ -12,7 +12,7 @@ Foram propostas 3 atividades que estão descritas mais detalhadamente no arquivo
 
 No arquivo  Encontre os erros.png  há uma série de erros, tanto de css quanto de  renderização que precisam ser ajustados. Enumere e descreva os erros encontrados  nessa interface. 
 
-[Resultado da Atividade 1](Atividade_1/resultado.pdf)
+> [Resultado da Atividade 1](Atividade_1/resultado.pdf)
 
 
 ## Atividade 2 - Desenvolver layout
@@ -21,7 +21,7 @@ Desenvolver um layout para uma vitrine personalizadas que possui o wireframe an
 
 ![Resultado da Atividade 2 - PNG](Atividade_2/resultado.png)
 
-[Resultado da Atividade 2 - PSD](Atividade_2/resultado.psd)
+> [Resultado da Atividade 2 - PSD](Atividade_2/resultado.psd)
 
 
 ## Atividade 3 - Desenvolver HTML e CSS do layout
@@ -32,7 +32,7 @@ Desenvolver o layout proposto na atividade anterior. Somente HTML e CSS.
 
 O HTML pode ser rodado baixando o repositório e rodando diretamente o index.html ou seguir o processo de instação.
 
-## Instalação do projeto
+## - Instalação do projeto
 
 ```sh
 $ git clone https://github.com/matheusroversi/linx.git seu_repositorio
@@ -47,11 +47,11 @@ Executar o index.html
 ```
 
 
-> Versão Desktop
+## - Versão Desktop
 
 ![Screenshoot Versão Desktop](images/screenshot_desktop.png)
 
-> Versão Mobile
+## - Versão Mobile
 
 Esta versão mobile foi testada diretamenta no smartphone e apresentou renderização com sucesso. Para qualquer projeto a simulação mobile diretamente no navegador desktop pode apresentar problemas de renderização, caso isso ocorra desative a ative novamente.
 
