@@ -28,7 +28,7 @@ Desenvolver um layout para uma vitrine personalizadas que possui o wireframe an
 
 Desenvolver o layout proposto na atividade anterior. Somente HTML e CSS.
 
-[Preview Online](linx.netlify.com)
+> [Preview Online](linx.netlify.com)
 
 O HTML pode ser rodado baixando o repositório e rodando diretamente o index.html ou seguir o processo de instação.
 
