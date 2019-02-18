@@ -26,13 +26,36 @@ Desenvolver um layout para uma vitrine personalizadas que possui o wireframe an
 
 Desenvolver o layout proposto na atividade anterior. Somente HTML e CSS.
 
-[Resultado da Atividade 3 - HTML](index.html)
+[Preview Online](linx.netlify.com)
+
+O HTML pode ser rodado baixando o repositório e rodando diretamente o index.html ou seguir o processo de instação.
+
+## Instalação do projeto
+
+```sh
+$ git clone https://github.com/matheusroversi/linx.git seu_repositorio
+```
+
+```sh
+$ npm install
+```
+
+```sh
+Executar o index.html
+```
+
 
 > Versão Desktop
 
 ![Screenshoot Versão Desktop](images/screenshot_desktop.png)
 
 > Versão Mobile
+
+Esta versão mobile foi testada diretamenta no smartphone e apresentou renderização com sucesso. Para qualquer projeto a simulação mobile diretamente no navegador desktop pode apresentar problemas de renderização, caso isso ocorra desative a ative novamente.
+
+```sh
+ `Ctrl + Shift + M`
+```
 
 ![Screenshoot Versão Desktop](images/screenshot_mobile.png)
 
