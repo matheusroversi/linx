@@ -1,0 +1,13 @@
+{
+  "name": "atividade-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass css/main.scss css/style.css",
+    "sass:watch": "sass --watch css/main.scss:css/style.css"
+  },
+  "author": "Matheus Roversi <matheusroversi@gmail.com> (http://matheusroversi.com/)",
+  "license": "ISC"
+}

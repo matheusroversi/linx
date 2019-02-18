@@ -1,0 +1,234 @@
+
+.carousel-interest {
+  min-width: $window-min-width;
+
+    .item-width {
+        width: $items-width;
+    }
+
+    // HEADER DO COMPONENTE
+    .ci-header {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #bba279;
+        width: 100%;
+        color: $text-color;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 8px;
+
+        .block-title-visit {
+            display: inline-block;
+        }
+        .button {
+          background-color: #d9c19b;
+          padding: 1px 6px;
+          border-radius: 5px;
+          color: #fff;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+          height: 23px;
+          cursor: pointer;
+          float: right;
+          position: relative;
+          font-size: 16px;
+          margin-right: -25px;
+        }
+        .block-title-interest {
+            margin-left: 15px;
+        }
+    }
+
+    // PRODUTO VISITADO
+    .product-visit {
+        vertical-align: top;
+        padding-right: 0px;
+    }
+
+    // CARROSSEL - PRODUTOS SUGERIDOS
+    .carousel {
+
+      vertical-align: top;
+      position: relative;
+      width: 80%; 
+
+      .content {
+          padding-left: 15px;
+      }
+
+      .arrow {
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        background: rgba(0,0,0,.25);
+        text-align: center;
+        line-height: 40px;
+        margin-top: -20px;
+        color: #fff;
+        cursor: pointer;
+        z-index: 9;
+      }
+
+      .arrow.next {
+        right: 10px;
+      }
+
+      .slick-list {
+        margin: 0 40px;
+        overflow: hidden;
+      }
+      .slick-track {
+        width: 4000px;
+        display: flex;
+        /*transform: translate3d(-110px, 0px, 0px);*/
+      }
+      .slick-pagination {
+        display: none;
+        text-align: center;
+        span {
+          display: inline-block;
+          width: 13px;
+          height: 13px;
+          -webkit-border-radius: 100%;
+          border-radius: 100%;
+          background: #bcbcbc;
+          opacity: .5;
+          margin: 10px 2px;
+          cursor: pointer;
+          &.active {
+            background: #555;
+          }
+        }
+      }
+    }
+
+    // RESPONSIVIDADE DESKTOP
+    @media screen and (max-width: 1300px) {
+        .carousel {
+          width: 75%;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        .carousel {
+          width: 70%;
+        }
+        .item-width {
+            width: 178px;
+        }
+      }
+      @media screen and (max-width: 950px) {
+        .carousel {
+          width: 65%;
+        }
+      }
+      @media screen and (max-width: 950px) {
+        .carousel {
+          width: 60%;
+        }
+      }
+      @media screen and (max-width: 690px) {
+        .carousel {
+          width: 55%;
+        }
+      }
+
+}
+
+
+@media screen and (min-width: 591px){
+  .carousel-interest {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+  .ci-header .button span {
+    display: none;
+  }
+}
+
+
+// RESPONSIVIDADE - MOBILE
+@media screen and (max-width: 590px){
+
+  // COMPONENTE 
+  .carousel-interest {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+    .item-width {
+      width: 100% !important;
+    }
+
+    // PRODUTOS
+    .product-item {
+      display: flex !important;
+      width: 100% !important;
+      padding: 0;
+      padding-top: 10px;
+      margin: 0;
+      .product-name {
+        font-size: 16px !important;
+        min-height: 45px !important;
+      }
+      .target {
+        display: none !important;
+      }
+    }
+
+    // CARROSSEL 
+    .carousel {
+      width: 100% !important;
+      margin-top: 0px !important;
+      .product-item {
+        display: none!important;
+      }
+      .product-item:nth-child(1) {
+        display: flex!important;
+      }
+      .content {
+        padding: 0 !important;
+      }
+      .arrow {
+        display: none !important;
+      }
+      .slick-pagination {
+        display: block !important;
+      }
+      .slick-list{
+        margin: 0px !important;
+      }
+      .slick-track {
+        width: 100%;
+      }
+
+    }
+
+    // HEADER 
+    .ci-header {
+      border: none;
+      margin-bottom: 15px !important;
+      .button {
+        position: relative !important;
+        font-size: 16px !important;
+        padding: 3px 7px !important;
+        height: 23px !important;
+        margin: 0 !important; 
+        span {
+          display: relative !important;
+        }
+      }
+      .block-title-interest {
+        margin: 0 !important;
+      }
+    }
+
+  }
+  
+}
+
+// CORRIGINDO A MARGEM DO BOTÃO NEXT NA CLASSE GLOBAL "CONTAINER"
+.container #carousel-interest .arrow.next {
+    right: -4px;
+}

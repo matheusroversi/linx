@@ -1,0 +1,106 @@
+// ESTILO DA GRID DOS PRODUTOS
+
+.product-list {
+    padding-bottom: 10px;
+
+    .product-item {
+        height: 100%;
+        margin: 0 4px;
+        position: relative;
+        margin-bottom: 15px;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        -webkit-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        padding: 10px;
+        display: block;
+        text-align: left;
+        display: inline-block;
+        overflow: hidden;
+
+        p {
+            margin: 0;
+        }
+    
+        h2.product-name {
+            font-size: 15px;
+            line-height: 19px;
+            font-weight: normal;
+            min-height: 60px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+    
+        .thumbnail {
+            text-align: center;
+            width: 100%;
+            height: auto;
+        }  
+    
+        .price-box {
+            font-family: $font-family-condensed;
+            font-weight: bold;
+    
+            .old-price {
+                font-weight: 400;
+                color: $old-price-color;
+                font-size: 17px;
+                text-decoration: line-through;
+                letter-spacing: -0.8;
+                margin-left: 2px;
+            }
+    
+            .special-price {
+                font-size: 18px;
+                color: inherit;
+                letter-spacing: -1px;
+                line-height: initial;
+            }
+    
+            .payment {
+                color: $payment-color;
+    
+                strong {
+                    font-size: 24px;
+                    vertical-align: -webkit-baseline-middle;
+                    letter-spacing: -0.8px;
+                    margin-left: 2px;
+                }
+            }
+        }
+    
+        .rate {
+            font-size: 20px;
+            letter-spacing: -0.8px;
+            color: #ccc;
+    
+            .base-set-icon-staroff.active:before {
+                content: "\e900";
+                color: #ffca00;
+            }
+        }
+    
+        .target {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            z-index: 1;
+            background-color: #FAFA12;
+            border-radius: 50px;
+            text-align: center;
+            padding: 5px 10px;
+            text-transform: uppercase;
+            display: none;
+        }
+
+    }:hover {
+        border-color: #ccc;
+    }
+
+
+    
+
+
+}

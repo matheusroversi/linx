@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "variables";
+@import "products";
+@import "glyphicon";
+@import "carousel-interest";
+
+
+html {
+  font-family: $font-family;
+  color: $text-color;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+  body {
+    color: #333;
+    text-decoration: none;
+  }
+
+  
+  a {
+    color: $text-color;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  a:hover{
+      color: $href-hover-color;
+      text-decoration: underline !Important;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  h3 {
+    color: $text-color;
+  }
+
+  .container {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
