@@ -10,7 +10,7 @@ Foram propostas 3 atividades que estão descritas mais detalhadamente no arquivo
 
 No arquivo  Encontre os erros.png  há uma série de erros, tanto de css quanto de  renderização que precisam ser ajustados. Enumere e descreva os erros encontrados  nessa interface. 
 
-![Resultado da Atividade 1](Atividade_1/resultado.pdf)
+[Resultado da Atividade 1](Atividade_1/resultado.pdf)
 
 
 ## Atividade 2 - Desenvolver layout
@@ -19,7 +19,7 @@ Desenvolver um layout para uma vitrine personalizadas que possui o wireframe an
 
 ![Resultado da Atividade 2 - PNG](Atividade_2/resultado.png)
 
-![Resultado da Atividade 2 - PSD](Atividade_2/resultado.psd)
+[Resultado da Atividade 2 - PSD](Atividade_2/resultado.psd)
 
 
 ## Atividade 3 - Desenvolver HTML e CSS do layout
